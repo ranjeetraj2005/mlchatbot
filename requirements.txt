@@ -5,6 +5,7 @@
 #    pip-compile requirements.in
 #
 django-heroku
+django-naomi==0.8
 amqp==2.6.1               # via kombu
 backcall==0.2.0           # via ipython
 billiard==3.6.3.0         # via celery
