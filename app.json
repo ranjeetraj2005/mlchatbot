@@ -7,11 +7,11 @@
     },
     "DISABLE_COLLECTSTATIC": {
       "description": "Disables Heroku collectstatic",
-      "value": "1"
+      "value": "0"
     },
     "ENABLE_DJANGO_COLLECTSTATIC": {
       "description": "Enables post-compile collectstatic (it is run by bin/post_compile)",
-      "value": "1"
+      "value": "0"
     },
     "AUTO_MIGRATE": {
       "description": "Heroku setting to run Django migrate automatically (it is run by bin/post_compile)",
@@ -59,9 +59,6 @@
     }
   ],
   "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
     {
       "url": "heroku/python"
     }
