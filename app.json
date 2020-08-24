@@ -7,7 +7,7 @@
     },
     "DISABLE_COLLECTSTATIC": {
       "description": "Disables Heroku collectstatic",
-      "value": "0"
+      "value": "1"
     },
     "ENABLE_DJANGO_COLLECTSTATIC": {
       "description": "Enables post-compile collectstatic (it is run by bin/post_compile)",
